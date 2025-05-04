@@ -1,5 +1,6 @@
+package basic_arrays;
 
-class MaxElementArray{
+public class MaxElementArray {
     public static int maxElement(int[] arr){
         int tempVal = arr[0];
         for(int maxArr : arr){
